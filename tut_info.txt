@@ -1,0 +1,121 @@
+STEPS:
+#017:
+Now connecting front end to back end:
+
+
+#016:
+EDIT/UPDATE TOPIC
+For editing need to have a dynamic route.
+CRUD done with postman check.
+
+#015:
+Start CRUD operation. Create a folder named api in app directory
+Inside api, create another folder topics/route.js.
+POST, GET, DELETE methods implemented 
+
+
+#014:
+Create a folder models/topic.js in main directory
+Remember these file extensions are .js not jsx
+
+#013:
+Inside mongodb create connection function to mongo database
+import mongoose from "mongoose";
+create a model...
+
+#012:
+Go & create a folder named libs in main directory
+libs/mongodb.js comes right after the components folder..
+
+#011:
+Then go to vs create .env file and paste password & link
+MONGODB_URI= mongodb+srv://devsen:<password>@cluster0.t5hlsk2.mongodb.net/
+
+Remember to give a db name after net/ i.e gtblog & type password where <password> devsen2067
+
+#010:
+Start Backend
+Create a new porject and create a database in mongodb
+When creating database note db username and password
+Add Ip Address: 0.0.0.0/0 that allows to make connection from anywhere
+Finish and close
+Go to Database on menu left side . Click connection 
+Take option MongoDB VS Code & copy link
+
+
+#009:
+Create another folder named editTopic in app dir with page.jsx
+Create a dynamic route inside editTopic folder
+Remember to add id after slash. Routes directly to [id] folder.
+<Link href={"/editTopic/123"}>
+
+
+
+#008:
+Create another folder named addTopic in app dir with page.jsx
+Check links in navbar and TopicList if correct!
+Inside AddTopic component create form.. 
+
+#007:
+Go to page.jsx add more TopicList component to see styling problem
+
+#006:
+Continue working on TopicList, styling etc.
+
+#005:
+Create button component:
+RemoveBtn.jsx &syling
+
+#004:
+Create another component topic
+
+#003:
+Add navbar to layout.js
+Style layout & navbar
+
+#002:
+Build Navbar
+components/Navbar.jsx
+
+
+#001:
+Install npx &clean 
+Modify page.js to page.jsx
+
+
+Check package json:
+-------------------------
+202310TEMP
+-------------------------
+-------------------------
+
+
+-------------------------
+202310010.....
+-------------------------
+{
+  "name": "next_gtcoding_blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "mongoose": "^7.5.3",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-icons": "^4.11.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest"
+  }
+}
+-------------------------
